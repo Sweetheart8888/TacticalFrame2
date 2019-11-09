@@ -23,6 +23,8 @@ import tf2.blocks.BlockIronFrame;
 import tf2.blocks.BlockMachineChassis;
 import tf2.blocks.BlockMachineStation;
 import tf2.blocks.BlockMechaDock;
+import tf2.blocks.BlockPanel;
+import tf2.blocks.BlockProtection;
 import tf2.blocks.BlockPulverizer;
 import tf2.blocks.BlockSkillStation;
 import tf2.blocks.BlockStoneMaker;
@@ -89,6 +91,9 @@ public class TFBlocks
 	public static final Block CONCRETE_SLAB_6 = new BlockConcreteSlab_6("concrete_slab_6").setHardness(3F).setResistance(20F);
 	public static final Block CONCRETE_SLAB_7 = new BlockConcreteSlab_7("concrete_slab_7").setHardness(3F).setResistance(20F);
 	public static final Block CONCRETE_SLAB_8 = new BlockConcreteSlab_8("concrete_slab_8").setHardness(3F).setResistance(20F);
+	public static final Block LED_PANEL = new BlockPanel("led_panel", Material.GLASS, SoundType.GLASS);
 	public static final Block IRON_FRAME = new BlockIronFrame("ironframe").setHardness(3F).setResistance(20F);
 	public static final Block CONCRETE_IRON = new BlockConcreteIron("concreteiron").setHardness(20F).setResistance(3000000F);
+
+	public static final Block PROTECTION = new BlockProtection("protection", Material.IRON, SoundType.METAL);
 }
