@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "tf:blocks/colorlight_12",
+		"particle": "tf:blocks/colorlight_12"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 16], "texture": "#0"},
+				"up": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"down": {"uv": [12, 0, 16, 4], "texture": "#0"}
+			}
+		}
+	]
+}

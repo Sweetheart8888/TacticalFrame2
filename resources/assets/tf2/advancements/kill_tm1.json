@@ -1,0 +1,59 @@
+{
+    "display": {
+        "icon": {
+            "item": "tf2:reimetal"
+        },
+        "title": {
+            "translate": "advancement.killMecha1"
+        },
+        "description": {
+            "translate": "advancement.killMecha1.desc"
+        }
+    },
+    "parent": "tf2:kill_tm0",
+    "criteria": {
+        "tm04": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "tf2:TM04"
+                }
+            }
+        },
+        "tm05": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "tf2:TM05"
+                }
+            }
+        },
+        "tm07": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "tf2:TM07"
+                }
+            }
+        },
+        "tm11": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "tf2:TM11"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tm04",
+            "tm05",
+            "tm07",
+            "tm11"
+        ]
+    ],
+    "rewards": {
+        "loot": ["tf2:reward/developchip_0"]
+    }
+}

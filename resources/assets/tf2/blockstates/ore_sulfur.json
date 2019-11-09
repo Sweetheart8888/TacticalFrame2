@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "tf2:ore",
+    "textures": {
+      "ore": "tf2:blocks/ore_sulfur"
+    },
+    "transform": "forge:default-block",
+    "uvlock": true
+  },
+  "variants": {
+    "normal":[{}],
+    "inventory":[{}]
+  }
+}

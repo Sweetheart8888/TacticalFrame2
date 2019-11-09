@@ -1,0 +1,44 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:rigidoingot"
+		},
+		"title": {
+			"translate": "advancement.getRigidoingot"
+		},
+		"description": {
+			"translate": "advancement.getRigidoingot.desc"
+		}
+	},
+	"parent": "tf2:reinforced_iron",
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "tf2:rigidoingot"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"loot": [
+			"tf2:reward/developchip_1"
+		],
+		"recipes": [
+			"tf2:rigido_block",
+			"tf2:rigido_ingot",
+			"tf2:rigido_sword",
+			"tf2:rigido_pickaxe",
+			"tf2:rigido_axe",
+			"tf2:rigido_shovel",
+			"tf2:rigido_helmet",
+			"tf2:rigido_body",
+			"tf2:rigido_leg",
+			"tf2:rigido_boot",
+			"tf2:shield_riot"
+		]
+	}
+}

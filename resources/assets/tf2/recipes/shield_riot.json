@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XZX",
+		"XXX",
+		" X "
+	],
+	"key": {
+		"X": {
+			 "item": "tf2:rigidoingot"
+		},
+		"Z": {
+            "item": "tf2:developchip_1"
+        }
+	},
+	"result": {
+		"item": "tf2:riotshield"
+	}
+}

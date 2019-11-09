@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tf2:developchip_0"
+		},
+		{
+            "item": "minecraft:gunpowder"
+        },
+		{
+			"type": "forge:ore_dict",
+            "ore": "gemNiter"
+		},
+        {
+            "type": "forge:ore_dict",
+            "ore": "gemSulfur"
+        }
+	],
+	"result": {
+		"item": "tf2:grenade_he"
+	}
+}

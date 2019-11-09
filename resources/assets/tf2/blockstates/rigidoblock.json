@@ -1,0 +1,13 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "all": "tf2:blocks/rigidoblock"
+        },
+        "model": "cube_all"
+    },
+    "variants": {
+        "normal": [{}],
+    "inventory":[{}]
+    }
+}

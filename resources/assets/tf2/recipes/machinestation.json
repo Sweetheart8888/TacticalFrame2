@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" Y ",
+		"YXY",
+		" Y "
+	],
+	"key": {
+		"X": {
+			 "item": "tf2:skillstation"
+		},
+		"Y": {
+			"item": "minecraft:iron_ingot"
+		}
+	},
+	"result": {
+		"item": "tf2:machinestation"
+	}
+}

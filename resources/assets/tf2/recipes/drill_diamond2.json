@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tf2:drill_diamond",
+            "data": 32767
+        },
+        {
+            "item": "tf2:diesel_box"
+        }
+    ],
+    "result": {
+        "item": "tf2:drill_diamond",
+        "count": 1
+    }
+}

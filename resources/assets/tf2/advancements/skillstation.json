@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:skillstation"
+		},
+		"title": {
+			"translate": "advancement.craftSkillstation"
+		},
+		"description": {
+			"translate": "advancement.craftSkillstation.desc"
+		}
+	},
+	"parent": "tf2:guncraft",
+    "criteria": {
+        "getDiamond": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:skillstation"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": ["tf2:machinestation"]
+    }
+}

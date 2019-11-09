@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"ZYZ",
+		"###"
+	],
+	"key": {
+		"#": {
+			"type": "forge:ore_dict",
+			"ore": "bucketLava"
+		},
+		"X": {
+			"item": "minecraft:iron_ingot"
+		},
+		"Y": {
+			"item": "tf2:workkit",
+			"data": 32767
+		},
+		"Z": {
+			"item": "tf2:machinechassis"
+		}
+	},
+	"result": {
+		"item": "tf2:cokeoven"
+	}
+}

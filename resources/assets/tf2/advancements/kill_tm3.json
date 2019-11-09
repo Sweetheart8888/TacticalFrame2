@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "tf2:techparts"
+        },
+        "title": {
+            "translate": "advancement.killMecha3"
+        },
+        "description": {
+            "translate": "advancement.killMecha3.desc"
+        }
+    },
+    "parent": "tf2:kill_tm2",
+    "criteria": {
+        "tm41": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "tf2:TM41"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tm41"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "tf2:reward/developchip_2"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" X ",
+		"YZY",
+		" X "
+	],
+	"key": {
+		"X": {
+			 "item": "minecraft:crafting_table"
+		},
+		"Y": {
+			"item": "minecraft:chest"
+		},
+        "Z": {
+            "item": "minecraft:iron_ingot"
+        }
+	},
+	"result": {
+		"item": "tf2:item_lock"
+	}
+}

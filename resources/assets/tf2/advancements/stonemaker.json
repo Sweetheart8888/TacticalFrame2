@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:stonemaker"
+		},
+		"title": {
+			"translate": "advancement.craftStonemaker"
+		},
+		"description": {
+			"translate": "advancement.craftStonemaker.desc"
+		},
+		"frame": "goal"
+	},
+	"parent": "tf2:reinforced_iron",
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "tf2:stonemaker"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"loot": [
+			"tf2:reward/developchip_0"
+		],
+		"recipes": [
+			"tf2:crushfilter",
+			"tf2:particlefilter"
+		],
+		"experience": 50
+	}
+}

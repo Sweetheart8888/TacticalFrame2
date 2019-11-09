@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"XYX",
+		"#A#"
+	],
+	"key": {
+		"#": {
+			"item": "tf2:mechaparts"
+		},
+		"X": {
+			 "item": "tf2:rigidoingot"
+		},
+		"Y": {
+			"item": "tf2:workkit",
+            "data": 32767
+		},
+        "A": {
+            "item": "tf2:parts",
+            "data": 2
+        }
+	},
+	"result": {
+		"item": "tf2:parts",
+		"data": 4
+	}
+}

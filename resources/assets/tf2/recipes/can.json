@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XYX",
+		" X "
+	],
+	"key": {
+		"X": {
+			 "item": "minecraft:iron_ingot"
+		},
+		"Y": {
+			"item": "tf2:workkit",
+            "data": 32767
+		}
+	},
+	"result": {
+		"item": "tf2:can",
+		"count": 16
+	}
+}

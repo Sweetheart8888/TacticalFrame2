@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "item": "tf2:scrap"
+        },
+        "title": {
+            "translate": "advancement.killMecha0"
+        },
+        "description": {
+            "translate": "advancement.killMecha0.desc"
+        }
+    },
+    "parent": "tf2:root",
+    "criteria": {
+        "tm02": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "tf2:TM02"
+                }
+            }
+        },
+        "tm06": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "tf2:TM06"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tm02",
+            "tm06"
+        ]
+    ],
+    "rewards": {
+        "loot": ["tf2:reward/developchip_0"]
+    }
+}

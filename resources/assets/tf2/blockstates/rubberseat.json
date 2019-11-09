@@ -1,0 +1,17 @@
+
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "tf:layer",
+        "textures": {
+        "texture": "tf:blocks/rubberseat"
+        },
+        "uvlock": true
+    },
+   "variants": {
+        "normal": [{}],
+        "inventory": [{
+            "model": "tf:item",
+            "textures": { "item": "tf:blocks/rubberseat" }}]
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "tf:ornament_fence_top",
+    "textures": {
+        "0": "tf:blocks/ornament_fence_top",
+        "1": "tf:blocks/ornament_fence_bottom",
+        "particle": "tf:blocks/ornament_fence_bottom"
+    },
+    "transform": "forge:default-block"
+  },
+   "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "facing=north,top=true": { "model": "tf:ornament_fence_bottom" },
+        "facing=south,top=true": { "model": "tf:ornament_fence_bottom" },
+        "facing=west,top=true":  { "model": "tf:ornament_fence_bottom", "y": 90 },
+        "facing=east,top=true":  { "model": "tf:ornament_fence_bottom", "y": 90 },
+        "facing=north,top=false": { "model": "tf:ornament_fence_top" },
+        "facing=south,top=false": { "model": "tf:ornament_fence_top" },
+        "facing=west,top=false":  { "model": "tf:ornament_fence_top", "y": 90 },
+        "facing=east,top=false":  { "model": "tf:ornament_fence_top", "y": 90 }
+    }
+}

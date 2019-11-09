@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tf2:drill",
+            "data": 32767
+        },
+        {
+            "item": "tf2:diesel_box"
+        }
+    ],
+    "result": {
+        "item": "tf2:drill"
+    }
+}

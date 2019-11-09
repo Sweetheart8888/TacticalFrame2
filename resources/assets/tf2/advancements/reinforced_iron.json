@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:reinforced_ironingot"
+		},
+		"title": {
+			"translate": "advancement.getReinforcediron"
+		},
+		"description": {
+			"translate": "advancement.getReinforcediron.desc"
+		}
+	},
+	"parent": "tf2:synthesizer",
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "tf2:reinforced_ironingot"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"loot": [
+			"tf2:reward/developchip_0"
+		],
+		"recipes": [
+			"tf2:upgrade_0",
+			"tf2:upgrade_1",
+			"tf2:upgrade_2",
+			"tf2:reinforced_iron_block",
+			"tf2:reinforced_iron_ingot",
+			"tf2:reinforced_iron_sword",
+			"tf2:reinforced_iron_pickaxe",
+			"tf2:reinforced_iron_axe",
+			"tf2:reinforced_iron_shovel",
+			"tf2:reinforced_iron_helmet",
+			"tf2:reinforced_iron_body",
+			"tf2:reinforced_iron_leg",
+			"tf2:reinforced_iron_boot",
+			"tf2:stonemaker"
+		]
+	}
+}

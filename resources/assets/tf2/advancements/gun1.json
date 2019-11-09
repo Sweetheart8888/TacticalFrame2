@@ -1,0 +1,124 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:m1911"
+		},
+		"title": {
+			"translate": "advancement.craftGuns"
+		},
+		"description": {
+			"translate": "advancement.craftGuns.desc"
+		}
+	},
+	"parent": "tf2:guncraft",
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:m1911"
+                    }
+                ]
+            }
+        },
+         "2": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:deserteagle"
+                    }
+                ]
+            }
+        },
+         "3": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:uzi"
+                    }
+                ]
+            }
+        },
+         "4": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:ppsh41"
+                    }
+                ]
+            }
+        },
+         "5": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:p90"
+                    }
+                ]
+            }
+        },
+         "6": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:pp19"
+                    }
+                ]
+            }
+        },
+         "7": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:evo3"
+                    }
+                ]
+            }
+        },
+         "8": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:mp7"
+                    }
+                ]
+            }
+        },
+         "9": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:ump9"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "tf2:reward/developchip_0"
+        ]
+    }
+}

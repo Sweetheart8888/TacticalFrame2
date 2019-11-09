@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XZX",
+		"XXX",
+		" X "
+	],
+	"key": {
+		"X": {
+			 "item": "minecraft:iron_ingot"
+		},
+		"Z": {
+            "type": "forge:ore_dict",
+             "ore": "gemQuartz"
+        }
+	},
+	"result": {
+		"item": "tf2:ironshield"
+	}
+}

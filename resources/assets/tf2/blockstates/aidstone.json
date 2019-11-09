@@ -1,0 +1,45 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "all": "tf:blocks/aidstone_0"
+        },
+        "model": "cube_all",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory_0":[{"textures": { "all": "tf:blocks/aidstone_0" }}],
+        "inventory_1":[{"textures": { "all": "tf:blocks/aidstone_1" }}],
+        "inventory_2":[{"textures": { "all": "tf:blocks/aidstone_2" }}],
+        "inventory_3":[{"textures": { "all": "tf:blocks/aidstone_3" }}],
+        "inventory_4":[{"textures": { "all": "tf:blocks/aidstone_4" }}],
+        "inventory_5":[{"textures": { "all": "tf:blocks/aidstone_5" }}],
+        "inventory_6":[{"textures": { "all": "tf:blocks/aidstone_6" }}],
+        "inventory_7":[{"textures": { "all": "tf:blocks/aidstone_7" }}],
+        "inventory_8":[{"textures": { "all": "tf:blocks/aidstone_8" }}],
+        "inventory_9":[{"textures": { "all": "tf:blocks/aidstone_9" }}],
+        "inventory_10":[{"textures": { "all": "tf:blocks/aidstone_10" }}],
+        "inventory_11":[{"textures": { "all": "tf:blocks/aidstone_11" }}],
+        "inventory_12":[{"textures": { "all": "tf:blocks/aidstone_12" }}],
+        "inventory_13":[{"textures": { "all": "tf:blocks/aidstone_13" }}],
+        "inventory_14":[{"textures": { "all": "tf:blocks/aidstone_14" }}],
+        "inventory_15":[{"textures": { "all": "tf:blocks/aidstone_15" }}],
+        "meta=0": [{"textures": {"all": "tf:blocks/aidstone_0"}}],
+        "meta=1": [{"textures": {"all": "tf:blocks/aidstone_1"}}],
+        "meta=2": [{"textures": {"all": "tf:blocks/aidstone_2"}}],
+        "meta=3": [{"textures": {"all": "tf:blocks/aidstone_3"}}],
+        "meta=4": [{"textures": {"all": "tf:blocks/aidstone_4"}}],
+        "meta=5": [{"textures": {"all": "tf:blocks/aidstone_5"}}],
+        "meta=6": [{"textures": {"all": "tf:blocks/aidstone_6"}}],
+        "meta=7": [{"textures": {"all": "tf:blocks/aidstone_7"}}],
+        "meta=8": [{"textures": {"all": "tf:blocks/aidstone_8"}}],
+        "meta=9": [{"textures": {"all": "tf:blocks/aidstone_9"}}],
+        "meta=10": [{"textures": {"all": "tf:blocks/aidstone_10"}}],
+        "meta=11": [{"textures": {"all": "tf:blocks/aidstone_11"}}],
+        "meta=12": [{"textures": {"all": "tf:blocks/aidstone_12"}}],
+        "meta=13": [{"textures": {"all": "tf:blocks/aidstone_13"}}],
+        "meta=14": [{"textures": {"all": "tf:blocks/aidstone_14"}}],
+        "meta=15": [{"textures": {"all": "tf:blocks/aidstone_15"}}]
+    }
+}

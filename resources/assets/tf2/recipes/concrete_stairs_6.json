@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "tf2:concrete",
+            "data": 6
+        }
+    },
+    "result": {
+        "item": "tf2:concrete_stairs_6",
+        "count": 4
+    }
+}

@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:mission_2"
+		},
+		"title": {
+			"translate": "advancement.event2"
+		},
+		"description": {
+			"translate": "advancement.event2.desc"
+		}
+	},
+	"parent": "tf2:event1",
+	"criteria": {
+		"event": {
+			"trigger": "tf2:event_mission_02"
+		}
+	},
+	"rewards": {
+		"experience": 50,
+		"loot": [
+			"tf2:reward/developchip_0"
+		]
+	}
+}

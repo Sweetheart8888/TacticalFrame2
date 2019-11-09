@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:synthesizer"
+		},
+		"title": {
+			"translate": "advancement.craftSynthesizer"
+		},
+		"description": {
+			"translate": "advancement.craftSynthesizer.desc"
+		}
+	},
+	"parent": "tf2:cokeoven",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:synthesizer"
+                    }
+                ]
+            }
+        }
+    }
+}

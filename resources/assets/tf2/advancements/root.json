@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:workkit"
+		},
+		"title": {
+			"translate": "advancement.tacticalFrame"
+		},
+		"description": {
+			"translate": "advancement.tacticalFrame.desc"
+		},
+		"background": "tf2:textures/blocks/aidstone_9.png",
+		"show_toast": false,
+        "announce_to_chat": false
+	},
+	"criteria": {
+		"open_inventory": {
+			"trigger": "minecraft:inventory_changed",
+			 "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crafting_table"
+                    }
+                ]
+            }
+		}
+	},
+	"rewards": {
+        "recipes": ["tf2:workkit", "tf2:guncraft","tf2:cupola","tf2:gunpowder3", "tf2:mission1"]
+    }
+
+}

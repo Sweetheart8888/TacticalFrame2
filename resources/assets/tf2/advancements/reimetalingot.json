@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:reimetalingot"
+		},
+		"title": {
+			"translate": "advancement.getReimetalingot"
+		},
+		"description": {
+			"translate": "advancement.getReimetalingot.desc"
+		}
+	},
+	"parent": "tf2:rigidoingot",
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "tf2:reimetalingot"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"loot": [
+			"tf2:reward/developchip_2"
+		]
+	}
+}

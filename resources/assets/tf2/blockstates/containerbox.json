@@ -1,0 +1,20 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "orientable",
+        "textures": {
+        "top": "tf:blocks/containerbox_top",
+        "front": "tf:blocks/containerbox_face",
+        "side": "tf:blocks/containerbox_side"
+        },
+        "uvlock": true
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "facing=north": { "model": "orientable" },
+        "facing=south": { "model": "orientable", "y": 180 },
+        "facing=west":  { "model": "orientable", "y": 270 },
+        "facing=east":  { "model": "orientable", "y": 90 }
+    }
+}

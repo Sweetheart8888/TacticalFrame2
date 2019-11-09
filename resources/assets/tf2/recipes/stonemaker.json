@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XZX",
+		"AYB",
+		"X#X"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:diamond_pickaxe"
+		},
+		"X": {
+			 "item": "tf2:reinforced_ironingot"
+		},
+		"Y": {
+			"item": "minecraft:piston"
+		},
+		"Z": {
+            "item": "minecraft:comparator"
+        },
+		"A": {
+             "type": "forge:ore_dict",
+             "ore": "bucketWater"
+        },
+        "B": {
+             "type": "forge:ore_dict",
+             "ore": "bucketLava"
+        }
+	},
+	"result": {
+		"item": "tf2:stonemaker"
+	}
+}

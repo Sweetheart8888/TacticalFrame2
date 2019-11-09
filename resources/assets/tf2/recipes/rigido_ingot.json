@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tf2:rigidoblock"
+        }
+    ],
+    "result": {
+        "item": "tf2:rigidoingot",
+        "count": 9
+    }
+}

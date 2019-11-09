@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"#Y#",
+		"ZZZ"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:iron_ingot"
+		},
+		"X": {
+			"item": "minecraft:gold_ingot"
+		},
+		"Y": {
+			"item": "tf2:workkit",
+            "data": 32767
+		},
+		"Z": {
+			"item": "tf2:machinechassis"
+		}
+	},
+	"result": {
+		"item": "tf2:mechadock"
+	}
+}

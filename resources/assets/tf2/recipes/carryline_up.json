@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"ZYZ",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			 "item": "minecraft:stone",
+			  "data": 0
+		},
+		"Y": {
+			 "item": "minecraft:ladder"
+		},
+		"Z": {
+            "item": "minecraft:redstone"
+        }
+	},
+	"result": {
+		"item": "tf2:carryline_up",
+		"count": 8
+	}
+}

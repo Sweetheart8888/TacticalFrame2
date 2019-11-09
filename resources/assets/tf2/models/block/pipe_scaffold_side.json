@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"textures": {
+		"0": "tf:blocks/pipe_scaffold_side",
+		"particle": "tf:blocks/pipe_scaffold_side"
+	},
+	"elements": [
+		{
+			"name": "lower bar",
+			"from": [7.5, 7, 0],
+			"to": [8.5, 8, 8],
+			"faces": {
+				"north": {"uv": [0, 7.5, 1, 8.5], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [0, 7.5, 8, 8.5], "texture": "#0"},
+				"south": {"uv": [7, 7.5, 8, 8.5], "texture": "#0"},
+				"west": {"uv": [0, 7.5, 8, 8.5], "texture": "#0"},
+				"up": {"uv": [0, 7.5, 8, 8.5], "texture": "#0", "rotation": 90},
+				"down": {"uv": [0, 7.5, 8, 8.5], "texture": "#0", "rotation": 270}
+			}
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"ZYZ",
+		"XAX"
+	],
+	"key": {
+		"#": {
+			"item": "tf2:rigidoingot"
+		},
+		"X": {
+			 "item": "tf2:techparts"
+		},
+		"Y": {
+			"item": "tf2:workkit",
+            "data": 32767
+		},
+		"Z": {
+             "item": "tf2:machinechassis"
+        },
+        "A": {
+             "item": "tf2:diesel_box"
+        }
+	},
+	"result": {
+		"item": "tf2:pulverizer"
+	}
+}

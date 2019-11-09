@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf:leprecube"
+		},
+		"title": {
+			"translate": "advancement.getLeprecube"
+		},
+		"description": {
+			"translate": "advancement.getLeprecube.desc"
+		}
+	},
+	"parent": "tf:flamlight",
+    "criteria": {
+        "get": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [{"item": "tf:leprecube"}]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": ["tf:leprechip"]
+    }
+}

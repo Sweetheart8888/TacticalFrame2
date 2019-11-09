@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"XYX",
+		"Z#Z"
+	],
+	"key": {
+		"#": {
+			"type": "forge:ore_dict",
+			"ore": "bucketLava"
+		},
+		"X": {
+			"item": "minecraft:brick_block"
+		},
+		"Y": {
+			"item": "tf2:workkit",
+            "data": 32767
+		},
+		"Z": {
+			"item": "minecraft:coal_block"
+		}
+	},
+	"result": {
+		"item": "tf2:cupola"
+	}
+}

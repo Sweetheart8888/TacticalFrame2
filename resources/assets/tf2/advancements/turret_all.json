@@ -1,0 +1,70 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:spawncore_fm",
+			"data": 1
+		},
+		"title": {
+			"translate": "advancement.craftTurretAll"
+		},
+		"description": {
+			"translate": "advancement.craftTurretAll.desc"
+		},
+        "frame": "challenge"
+	},
+	"parent": "tf2:turret",
+	"criteria": {
+		"1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "tf2:spawncore_fm",
+						"data": 1
+					}
+				]
+			}
+		},
+		"2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "tf2:spawncore_fm",
+                        "data": 2
+					}
+				]
+			}
+		},
+		"3": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "tf2:spawncore_fm",
+                        "data": 3
+					}
+				]
+			}
+		},
+		"4": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "tf2:spawncore_fm",
+                        "data": 4
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		["1"],["2"],["3"],["4"]
+	],
+	"rewards": {
+		"loot": [
+			"tf2:reward/developchip_0"
+		]
+	}
+}

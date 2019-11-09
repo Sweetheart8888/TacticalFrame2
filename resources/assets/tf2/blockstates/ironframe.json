@@ -1,0 +1,19 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "all": "tf2:blocks/ironframe_0"
+        },
+        "model": "cube_all",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory_0":[{"textures": { "all": "tf2:blocks/ironframe_0" }}],
+        "inventory_1":[{"textures": { "all": "tf2:blocks/ironframe_1" }}],
+        "inventory_2":[{"textures": { "all": "tf2:blocks/ironframe_2" }}],
+        "meta=0": [{"textures": {"all": "tf2:blocks/ironframe_0"}}],
+        "meta=1": [{"textures": {"all": "tf2:blocks/ironframe_1"}}],
+        "meta=2": [{"textures": {"all": "tf2:blocks/ironframe_2"}}]
+    }
+}

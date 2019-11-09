@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+            "item": "tf2:workkit",
+            "data": 32767
+        },
+		{
+			"item": "tf2:reimetal"
+		},
+		{
+			"item": "minecraft:iron_ingot"
+		},
+		{
+            "item": "tf2:reinforced_ironingot"
+        }
+	],
+	"result": {
+		"item": "tf2:upgrade_0"
+	}
+}

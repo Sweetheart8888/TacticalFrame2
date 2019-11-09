@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XAX",
+		"#Y#",
+		"XXX"
+	],
+	"key": {
+		"#": {
+			"item": "tf2:scrap"
+		},
+		"X": {
+			 "item": "tf2:reinforced_ironingot"
+		},
+		"Y": {
+			"item": "tf2:workkit",
+            "data": 32767
+		},
+        "A": {
+            "item": "minecraft:compass"
+        }
+	},
+	"result": {
+		"item": "tf2:parts",
+		"data": 2
+	}
+}

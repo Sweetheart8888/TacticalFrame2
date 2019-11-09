@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tf2:rigidoingot"
+    }
+  },
+  "result": {
+    "item": "tf2:rigidoblock"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "cube_column",
+     "textures": {
+         "end": "tf:blocks/machineornament_0_top",
+         "side": "tf:blocks/machineornament_0"
+    },
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory_0":[{"textures": { "end": "tf:blocks/machineornament_0_top","side": "tf:blocks/machineornament_0" }}],
+        "inventory_1":[{"textures": { "end": "tf:blocks/machineornament_1_top","side": "tf:blocks/machineornament_1" }}],
+        "inventory_2":[{"textures": { "end": "tf:blocks/machineornament_2_top","side": "tf:blocks/machineornament_2" }}],
+        "inventory_3":[{"textures": { "end": "tf:blocks/machineornament_3_top","side": "tf:blocks/machineornament_3" }}],
+        "meta=0": [{"textures": {"end": "tf:blocks/machineornament_0_top","side": "tf:blocks/machineornament_0"}}],
+        "meta=1": [{"textures": {"end": "tf:blocks/machineornament_1_top","side": "tf:blocks/machineornament_1"}}],
+        "meta=2": [{"textures": {"end": "tf:blocks/machineornament_2_top","side": "tf:blocks/machineornament_2"}}],
+        "meta=3": [{"textures": {"end": "tf:blocks/machineornament_3_top","side": "tf:blocks/machineornament_3"}}]
+    }
+}

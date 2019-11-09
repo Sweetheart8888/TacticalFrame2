@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tf2:concrete",
+            "data": 1
+		}
+	],
+	"result": {
+		"item": "tf2:concrete",
+		"data": 2,
+		"count": 1
+	}
+}

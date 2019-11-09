@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"ZYZ",
+		"XXX"
+	],
+	"key": {
+		"#": {
+			"type": "forge:ore_dict",
+			"ore": "bucketMilk"
+		},
+		"X": {
+			"item": "minecraft:wheat"
+		},
+		"Y": {
+			"item": "minecraft:egg"
+		},
+		"Z": {
+			"item": "minecraft:sugar"
+		}
+	},
+	"result": {
+		"item": "minecraft:cake"
+	}
+}

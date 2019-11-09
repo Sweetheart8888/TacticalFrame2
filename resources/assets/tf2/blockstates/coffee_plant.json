@@ -1,0 +1,22 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "cross",
+        "textures": {
+        "cross": "tf:blocks/coffee_3"
+        },
+        "uvlock": true
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "age=0": {"model": "cross","textures": {"cross": "tf:blocks/coffee_0"}},
+        "age=1": {"model": "cross","textures": {"cross": "tf:blocks/coffee_0"}},
+        "age=2": {"model": "cross","textures": {"cross": "tf:blocks/coffee_1"}},
+        "age=3": {"model": "cross","textures": {"cross": "tf:blocks/coffee_1"}},
+        "age=4": {"model": "cross","textures": {"cross": "tf:blocks/coffee_2"}},
+        "age=5": {"model": "cross","textures": {"cross": "tf:blocks/coffee_2"}},
+        "age=6": {"model": "cross","textures": {"cross": "tf:blocks/coffee_2"}},
+        "age=7": {"model": "cross","textures": {"cross": "tf:blocks/coffee_3"}}
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "tf:wiremesh",
+    "transform": "forge:default-block",
+    "uvlock": false
+  },
+   "variants": {
+        "normal": [{}],
+        "inventory": [{"model": "tf:wiremesh_inventory"}],
+        "facing=north": { "model": "tf:wiremesh" },
+        "facing=south": { "model": "tf:wiremesh", "y": 180 },
+        "facing=west":  { "model": "tf:wiremesh", "y": 270 },
+        "facing=east":  { "model": "tf:wiremesh", "y": 90 }
+    }
+}

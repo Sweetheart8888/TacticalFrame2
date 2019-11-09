@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:biogenerator"
+		},
+		"title": {
+			"translate": "advancement.craftGenerator"
+		},
+		"description": {
+			"translate": "advancement.craftGenerator.desc"
+		}
+	},
+	"parent": "tf2:cokeoven",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:biogenerator"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": ["tf2:pulverizer","tf2:explosive","tf2:explosive2","tf2:drill","tf2:drill_diamond","tf2:drill2","tf2:drill_diamond2"]
+    }
+}

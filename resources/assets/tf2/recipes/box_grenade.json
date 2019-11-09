@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:iron_ingot"
+		},
+		{
+            "item": "minecraft:iron_ingot"
+        },
+		{
+			"item": "tf2:explosive"
+		},
+		{
+			"item": "tf2:workkit",
+			"data": 32767
+		}
+	],
+	"result": {
+		"item": "tf2:boxgrenade"
+	}
+}

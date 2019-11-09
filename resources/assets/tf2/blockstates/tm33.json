@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "tf:tm33",
+    "textures": {
+      "0": "tf:blocks/tm33_0",
+        "1": "tf:blocks/tm33_1",
+        "2": "tf:blocks/tm33_2"
+    },
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal":[{}],
+    "inventory":[{}]
+  }
+}

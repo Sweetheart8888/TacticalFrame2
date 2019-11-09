@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:cokeoven"
+		},
+		"title": {
+			"translate": "advancement.craftCokeoven"
+		},
+		"description": {
+			"translate": "advancement.craftCokeoven.desc"
+		}
+	},
+	"parent": "tf2:cupola",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:cokeoven"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": ["tf2:coke","tf2:coke_block","tf2:coke_torch","tf2:biogenerator","tf2:parts_7"]
+    }
+}

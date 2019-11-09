@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"YYY",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			 "item": "minecraft:iron_ingot"
+		},
+		"Y": {
+			"item": "minecraft:crafting_table"
+		}
+	},
+	"result": {
+		"item": "tf2:workkit"
+	}
+}

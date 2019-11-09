@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:guncraft"
+		},
+		"title": {
+			"translate": "advancement.craftGuncraft"
+		},
+		"description": {
+			"translate": "advancement.craftGuncraft.desc"
+		}
+	},
+	"parent": "tf2:root",
+	"criteria": {
+		"getDiamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "tf2:guncraft"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"tf2:box_rifle",
+			"tf2:box_shot",
+			"tf2:box_sniper",
+			"tf2:box_grenade",
+			"tf2:box_small",
+			"tf2:skillstation"
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"ZXZ",
+		"YYY"
+	],
+	"key": {
+	    "#": {
+             "item": "minecraft:diamond"
+        },
+		"X": {
+			 "item": "tf2:mechaparts"
+		},
+		"Y": {
+			 "item": "minecraft:iron_ingot"
+		},
+		"Z": {
+             "item": "tf2:scrap"
+        }
+	},
+	"result": {
+		"item": "tf2:particlefilter"
+	}
+}

@@ -1,0 +1,298 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:ak47"
+		},
+		"title": {
+			"translate": "advancement.craftGuns2"
+		},
+		"description": {
+			"translate": "advancement.craftGuns2.desc"
+		}
+	},
+	"parent": "tf2:gun1",
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:ak47"
+                    }
+                ]
+            }
+        },
+         "2": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:m4a1"
+                    }
+                ]
+            }
+        },
+         "3": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:ak74"
+                    }
+                ]
+            }
+        },
+         "4": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:ak12"
+                    }
+                ]
+            }
+        },
+         "5": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:m16a1"
+                    }
+                ]
+            }
+        },
+         "6": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:hk416"
+                    }
+                ]
+            }
+        },
+         "7": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:sig550"
+                    }
+                ]
+            }
+        },
+         "8": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:g36"
+                    }
+                ]
+            }
+        },
+         "9": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:famas"
+                    }
+                ]
+            }
+        },
+         "10": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:ots14"
+                    }
+                ]
+            }
+        },
+         "11": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:m24"
+                    }
+                ]
+            }
+        },
+         "12": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:m200"
+                    }
+                ]
+            }
+        },
+         "13": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:xm2010"
+                    }
+                ]
+            }
+        },
+         "14": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:svd"
+                    }
+                ]
+            }
+        },
+         "15": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:wa2000"
+                    }
+                ]
+            }
+        },
+         "16": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:psg1"
+                    }
+                ]
+            }
+        },
+         "17": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:mosinnagant"
+                    }
+                ]
+            }
+        },
+         "18": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:m82a1"
+                    }
+                ]
+            }
+        },
+         "19": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:pgm"
+                    }
+                ]
+            }
+        },
+         "20": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:spas12"
+                    }
+                ]
+            }
+        },
+         "21": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:m1014"
+                    }
+                ]
+            }
+        },
+         "22": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:m870"
+                    }
+                ]
+            }
+        },
+         "23": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:saiga12"
+                    }
+                ]
+            }
+        },
+         "24": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:vepr12"
+                    }
+                ]
+            }
+        },
+         "25": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:aa12"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25"
+        ]
+    ],
+    "rewards": {
+        "loot": ["tf2:reward/developchip_0"]
+    }
+}

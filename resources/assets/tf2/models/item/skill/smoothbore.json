@@ -1,0 +1,16 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "tf2:items/skill/smoothbore"
+	},
+	"display": {
+		"firstperson_lefthand": {
+			"scale": [ 0.68,0.68,0.68 ],
+			"rotation": [ 0,90,-25 ],
+			"translation": [ 1.13,3.2,1.13 ]
+		},
+		"firstperson_righthand": {
+             "scale": [ 0,0,0 ]
+        }
+	}
+}

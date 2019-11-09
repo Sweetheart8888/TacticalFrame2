@@ -1,0 +1,20 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "orientable",
+        "textures": {
+        "top": "tf2:blocks/cokeoven_top",
+        "front": "tf2:blocks/cokeoven_face",
+        "side": "tf2:blocks/cokeoven"
+        },
+        "uvlock": true
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "facing=north": { "model": "orientable" },
+        "facing=south": { "model": "orientable", "y": 180 },
+        "facing=west":  { "model": "orientable", "y": 270 },
+        "facing=east":  { "model": "orientable", "y": 90 }
+    }
+}

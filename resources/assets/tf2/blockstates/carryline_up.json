@@ -1,0 +1,21 @@
+
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "tf2:panel",
+        "textures": {
+        "texture": "tf2:blocks/carryline_up"
+        },
+        "uvlock": true
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{
+            "model": "tf2:item",
+            "textures": { "item": "tf2:blocks/carryline_up" }}],
+        "facing=north": { "model": "tf2:panel" },
+        "facing=south": { "model": "tf2:panel", "y": 180 },
+        "facing=west":  { "model": "tf2:panel", "y": 270 },
+        "facing=east":  { "model": "tf2:panel", "y": 90 }
+    }
+}

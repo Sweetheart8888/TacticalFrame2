@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "tf2:compressiron"
+		}
+	],
+	"result": {
+		"item": "minecraft:iron_ingot",
+		"count": 64
+	}
+}

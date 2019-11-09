@@ -1,0 +1,59 @@
+{
+    "display": {
+        "icon": {
+            "item": "tf2:rigidoplate"
+        },
+        "title": {
+            "translate": "advancement.killMecha2"
+        },
+        "description": {
+            "translate": "advancement.killMecha2.desc"
+        }
+    },
+    "parent": "tf2:kill_tm1",
+    "criteria": {
+        "tm12": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "tf2:TM12"
+                }
+            }
+        },
+        "tm26a": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "tf2:TM26A"
+                }
+            }
+        },
+        "tm26b": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "tf2:TM26B"
+                }
+            }
+        },
+        "tm26c": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "tf2:TM26C"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tm12",
+            "tm26a",
+            "tm26b",
+            "tm26c"
+        ]
+    ],
+    "rewards": {
+        "loot": ["tf2:reward/developchip_1"]
+    }
+}

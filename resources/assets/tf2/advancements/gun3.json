@@ -1,0 +1,79 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:m60e1"
+		},
+		"title": {
+			"translate": "advancement.craftGuns3"
+		},
+		"description": {
+			"translate": "advancement.craftGuns3.desc"
+		},
+		"frame": "goal"
+	},
+	"parent": "tf2:gun2",
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:mg42"
+                    }
+                ]
+            }
+        },
+         "2": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:m60e1"
+                    }
+                ]
+            }
+        },
+         "3": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:m1a1"
+                    }
+                ]
+            }
+        },
+         "4": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:m20"
+                    }
+                ]
+            }
+        },
+         "5": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "tf2:mgl140"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    ],
+    "rewards": {
+        "loot": ["tf2:reward/developchip_1"]
+    }
+}

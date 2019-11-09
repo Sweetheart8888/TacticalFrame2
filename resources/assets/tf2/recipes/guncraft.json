@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" Y ",
+		"YXY",
+		" Y "
+	],
+	"key": {
+		"X": {
+			 "item": "minecraft:iron_ingot"
+		},
+		"Y": {
+			"item": "minecraft:crafting_table"
+		}
+	},
+	"result": {
+		"item": "tf2:guncraft"
+	}
+}

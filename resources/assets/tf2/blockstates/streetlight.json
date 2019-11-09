@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "tf:streetlight",
+    "uvlock": false
+  },
+   "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "facing=north": { "model": "tf:streetlight" },
+        "facing=south": { "model": "tf:streetlight", "y": 180 },
+        "facing=west":  { "model": "tf:streetlight", "y": 270 },
+        "facing=east":  { "model": "tf:streetlight", "y": 90 }
+    }
+}

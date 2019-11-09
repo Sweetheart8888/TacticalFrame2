@@ -1,0 +1,31 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "all": "tf2:blocks/concrete_0"
+        },
+        "model": "cube_all",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory_0":[{"textures": { "all": "tf2:blocks/concrete_0" }}],
+        "inventory_1":[{"textures": { "all": "tf2:blocks/concrete_1" }}],
+        "inventory_2":[{"textures": { "all": "tf2:blocks/concrete_2" }}],
+        "inventory_3":[{"textures": { "all": "tf2:blocks/concrete_3" }}],
+        "inventory_4":[{"textures": { "all": "tf2:blocks/concrete_4" }}],
+        "inventory_5":[{"textures": { "all": "tf2:blocks/concrete_5" }}],
+        "inventory_6":[{"textures": { "all": "tf2:blocks/concrete_6" }}],
+        "inventory_7":[{"textures": { "all": "tf2:blocks/concrete_7" }}],
+        "inventory_8":[{"textures": { "all": "tf2:blocks/concrete_8" }}],
+        "meta=0": [{"textures": {"all": "tf2:blocks/concrete_0"}}],
+        "meta=1": [{"textures": {"all": "tf2:blocks/concrete_1"}}],
+        "meta=2": [{"textures": {"all": "tf2:blocks/concrete_2"}}],
+        "meta=3": [{"textures": {"all": "tf2:blocks/concrete_3"}}],
+        "meta=4": [{"textures": {"all": "tf2:blocks/concrete_4"}}],
+        "meta=5": [{"textures": {"all": "tf2:blocks/concrete_5"}}],
+        "meta=6": [{"textures": {"all": "tf2:blocks/concrete_6"}}],
+        "meta=7": [{"textures": {"all": "tf2:blocks/concrete_7"}}],
+        "meta=8": [{"textures": {"all": "tf2:blocks/concrete_8"}}]
+    }
+}

@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "tf2:pulverizer"
+		},
+		"title": {
+			"translate": "advancement.craftPulverizer"
+		},
+		"description": {
+			"translate": "advancement.craftPulverizer.desc"
+		}
+	},
+	"parent": "tf2:biogenerator",
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "tf2:pulverizer"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"loot": [
+			"tf2:reward/developchip_2"
+		],
+		"recipes": [
+			"tf2:gunpowder",
+			"tf2:gunpowder2"
+		]
+	}
+}

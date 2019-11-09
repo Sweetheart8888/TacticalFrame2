@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" X ",
+		"X#X",
+		"ZYZ"
+	],
+	"key": {
+		"#": {
+			"item": "tf2:developchip_1"
+		},
+		"X": {
+			"item": "minecraft:diamond"
+		},
+		"Y": {
+			"item": "tf2:drill",
+			"data": 0
+		},
+		"Z": {
+			"item": "tf2:rigidoingot"
+		}
+	},
+	"result": {
+		"item": "tf2:drill_diamond"
+	}
+}

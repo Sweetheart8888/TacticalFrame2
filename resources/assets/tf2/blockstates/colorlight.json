@@ -1,0 +1,45 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "all": "tf:blocks/colorlight_0"
+        },
+        "model": "cube_all",
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory_0":[{"textures": { "all": "tf:blocks/colorlight_0" }}],
+        "inventory_1":[{"textures": { "all": "tf:blocks/colorlight_1" }}],
+        "inventory_2":[{"model": "tf:colorlight_gray","textures": {"all": "tf:blocks/colorlight_2"}}],
+        "inventory_3":[{"textures": { "all": "tf:blocks/colorlight_3" }}],
+        "inventory_4":[{"model": "tf:colorlight_red","textures": {"all": "tf:blocks/colorlight_4"}}],
+        "inventory_5":[{"model": "tf:colorlight_orange","textures": {"all": "tf:blocks/colorlight_5"}}],
+        "inventory_6":[{"model": "tf:colorlight_yellow","textures": {"all": "tf:blocks/colorlight_6"}}],
+        "inventory_7":[{"model": "tf:colorlight_lime","textures": {"all": "tf:blocks/colorlight_7"}}],
+        "inventory_8":[{"model": "tf:colorlight_green","textures": {"all": "tf:blocks/colorlight_8"}}],
+        "inventory_9":[{"model": "tf:colorlight_sky","textures": {"all": "tf:blocks/colorlight_9"}}],
+        "inventory_10":[{"model": "tf:colorlight_cyan","textures": {"all": "tf:blocks/colorlight_10"}}],
+        "inventory_11":[{"model": "tf:colorlight_blue","textures": {"all": "tf:blocks/colorlight_11"}}],
+        "inventory_12":[{"model": "tf:colorlight_purple","textures": {"all": "tf:blocks/colorlight_12"}}],
+        "inventory_13":[{"model": "tf:colorlight_magenta","textures": {"all": "tf:blocks/colorlight_13"}}],
+        "inventory_14":[{"model": "tf:colorlight_pink","textures": {"all": "tf:blocks/colorlight_14"}}],
+        "inventory_15":[{"model": "tf:colorlight_brown","textures": {"all": "tf:blocks/colorlight_15"}}],
+        "meta=0": [{"textures": {"all": "tf:blocks/colorlight_0"}}],
+        "meta=1": [{"textures": {"all": "tf:blocks/colorlight_1"}}],
+        "meta=2": [{"model": "tf:colorlight_gray","textures": {"all": "tf:blocks/colorlight_2"}}],
+        "meta=3": [{"textures": {"all": "tf:blocks/colorlight_3"}}],
+        "meta=4": [{"model": "tf:colorlight_red","textures": {"all": "tf:blocks/colorlight_4"}}],
+        "meta=5": [{"model": "tf:colorlight_orange","textures": {"all": "tf:blocks/colorlight_5"}}],
+        "meta=6": [{"model": "tf:colorlight_yellow","textures": {"all": "tf:blocks/colorlight_6"}}],
+        "meta=7": [{"model": "tf:colorlight_lime","textures": {"all": "tf:blocks/colorlight_7"}}],
+        "meta=8": [{"model": "tf:colorlight_green","textures": {"all": "tf:blocks/colorlight_8"}}],
+        "meta=9": [{"model": "tf:colorlight_sky","textures": {"all": "tf:blocks/colorlight_9"}}],
+        "meta=10": [{"model": "tf:colorlight_cyan","textures": {"all": "tf:blocks/colorlight_10"}}],
+        "meta=11": [{"model": "tf:colorlight_blue","textures": {"all": "tf:blocks/colorlight_11"}}],
+        "meta=12": [{"model": "tf:colorlight_purple","textures": {"all": "tf:blocks/colorlight_12"}}],
+        "meta=13": [{"model": "tf:colorlight_magenta","textures": {"all": "tf:blocks/colorlight_13"}}],
+        "meta=14": [{"model": "tf:colorlight_pink","textures": {"all": "tf:blocks/colorlight_14"}}],
+        "meta=15": [{"model": "tf:colorlight_brown","textures": {"all": "tf:blocks/colorlight_15"}}]
+    }
+}

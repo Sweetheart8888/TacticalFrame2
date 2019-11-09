@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"ZYZ",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "tf2:cokeblock"
+		},
+		"X": {
+			"item": "minecraft:iron_ingot"
+		},
+		"Y": {
+			"item": "tf2:workkit",
+			"data": 32767
+		},
+		"Z": {
+			"item": "tf2:machinechassis"
+		}
+	},
+	"result": {
+		"item": "tf2:synthesizer"
+	}
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "tf2:spawncore_fm",
+            "data": 4
+        },
+        "title": {
+            "translate": "advancement.friendmecha"
+        },
+        "description": {
+            "translate": "advancement.friendmecha.desc"
+        }
+    },
+    "parent": "tf2:machinestation",
+    "criteria": {
+        "ingot": {
+            "trigger": "tf2:summon_friend_mecha",
+             "conditions": {
+                "items": [{"item": "tf2:spawncore_fm"}]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": []
+    }
+}

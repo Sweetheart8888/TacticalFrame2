@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ZAZ",
+		"XYX",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			 "item": "minecraft:iron_ingot"
+		},
+		"Y": {
+			"item": "tf2:workkit",
+            "data": 32767
+		},
+		"Z": {
+            "item": "minecraft:redstone"
+        },
+        "A": {
+            "item": "minecraft:gold_ingot"
+        }
+	},
+	"result": {
+		"item": "tf2:parts",
+		"data": 1
+	}
+}
