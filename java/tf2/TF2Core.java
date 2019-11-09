@@ -13,7 +13,9 @@ import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.IRecipe;
+import net.minecraft.stats.StatBasic;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.storage.loot.LootTableList;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -58,6 +60,7 @@ import tf2.event.EventGunRender;
 import tf2.event.EventWorldGen;
 import tf2.event.KeyEvent;
 import tf2.event.TFAnvilEvent;
+import tf2.event.TFBlockEvent;
 import tf2.event.TFDeathEvent;
 import tf2.event.TFHurtEvent;
 import tf2.event.TFLivingUpdateEvent;
@@ -139,6 +142,9 @@ public class TF2Core {
 	public static final ResourceLocation ENTITIES_TM34 = LootTableList.register(new ResourceLocation(Reference.MOD_ID, "entities/tm34"));
 	public static final ResourceLocation ENTITIES_TM41 = LootTableList.register(new ResourceLocation(Reference.MOD_ID, "entities/tm41"));
 	public static final ResourceLocation ENTITIES_TF08 = LootTableList.register(new ResourceLocation(Reference.MOD_ID, "entities/tf08"));
+
+	public static final StatBasic VETERANS_SCORE = (StatBasic) new StatBasic(Reference.MOD_ID + ".stat." + "veteransScore",
+			new TextComponentTranslation(Reference.MOD_ID + ".stat." + "veteransScore")).registerStat();
 
 	@Mod.EventHandler
 	public void construct(FMLConstructionEvent event)
@@ -286,6 +292,7 @@ public class TF2Core {
 		MinecraftForge.EVENT_BUS.register(new TFZoomEvent());
 		MinecraftForge.EVENT_BUS.register(new TFSightEvent());
 		MinecraftForge.EVENT_BUS.register(new TFHurtEvent());
+		MinecraftForge.EVENT_BUS.register(new TFBlockEvent());
 //		MinecraftForge.EVENT_BUS.register(new TFAchievementEvent());
 		MinecraftForge.EVENT_BUS.register(new TFLivingUpdateEvent());
 		MinecraftForge.EVENT_BUS.register(new KeyEvent());
