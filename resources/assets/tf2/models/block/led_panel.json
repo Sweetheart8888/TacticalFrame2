@@ -1,0 +1,6 @@
+{
+    "parent": "tf2:block/pane",
+    "textures": {
+        "texture": "tf2:blocks/led_0"
+    }
+}
