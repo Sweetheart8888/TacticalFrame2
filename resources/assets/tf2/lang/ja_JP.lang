@@ -129,6 +129,9 @@ tile.catapult.name=カタパルトブロック
 tile.streetlight.name=街灯
 tile.shutter.name=シャッターブロック
 tile.shutter_lit.name=シャッターブロック
+tile.protection.name=プロテクションブロック
+tile.led_lamp_0.name=LEDランプ
+tile.led_panel_0.name=LEDパネル
 
 item.ak47.name=AK47
 item.m16a1.name=M16A1

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "facing=up":    { "model": "tf2:led_panel", "uvlock": true },
+        "facing=down":  { "model": "tf2:led_panel", "uvlock": true, "x": 180 },
+        "facing=east":  { "model": "tf2:led_panel", "uvlock": true, "x": 90, "y": 90 },
+        "facing=west":  { "model": "tf2:led_panel", "uvlock": true, "x": 90, "y": 270 },
+        "facing=south": { "model": "tf2:led_panel", "uvlock": true, "x": 90, "y": 180 },
+        "facing=north": { "model": "tf2:led_panel", "uvlock": true, "x": 90 }
+    }
+}
